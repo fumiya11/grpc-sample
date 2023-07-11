@@ -1,4 +1,4 @@
-module github.com/fukushimaf929/grpc-sample
+module github.com/fumiya11/grpc-sample
 
 go 1.19
 

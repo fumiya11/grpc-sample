@@ -5,7 +5,7 @@ import (
 	"log"
 	"net"
 
-	hello "github.com/fukushimaf929/grpc-sample/hello"
+	hello "github.com/fumiya11/grpc-sample/hello"
 	"google.golang.org/grpc"
 )
 

@@ -9,7 +9,7 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	hello "github.com/fukushimaf929/grpc-sample/hello"
+	hello "github.com/fumiya11/grpc-sample/hello"
 )
 
 func main() {
