@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option go_package = "./";
+package hello;
+
+message Message {
+  string body = 1;
+}
+
+service HelloService {
+  rpc SayHello(Message) returns (Message) {}
+  rpc SayHelloStream (Message) returns (stream Message);
+}
